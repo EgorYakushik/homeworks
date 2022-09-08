@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(249, 230, 207);
+    font-family: 'Patrick Hand', cursive;
+    height: 100%;
+} 
+.header_wrapper {
+    display: flex;
+    width: 60%;
+    height: 10%;
+    margin: 0 auto;
+} 
+nav {
+    display: flex;
+    width: 60%;
+    padding: 4em 0;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+}
+nav span {
+    height: 50px;
+    font-size: 26px;
+    color: rgb(102, 28, 28);
+    font-weight: bold;
+    line-height: 80px;
+}
+.header_wrapper img {
+    width: 150px;
+}
+
+.form_list {
+    width: 30%;
+    height: 30%;
+    padding: 52px 75px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 30px rgb(149, 118, 118);
+}
+.form_list div {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+    line-height: 40px;
+    color: #402B2B;
+    margin-bottom: 10%;
+}
+.form_list input {
+    width: calc(100% - 40px);
+    padding: 20px;
+    border: 1px solid rgba(238, 77, 71, 0.5);
+    border-radius: 5px;
+}
+.form_list input::placeholder {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+    line-height: 40px;
+    color: #8a6b6b;
+}
+.button {
+    width: 180px;
+    background-color: rgb(102, 28, 28);
+    border: none;
+    border-radius: 15px;
+}
+.button a {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    width: 30%;
+    height: 20%;
+    margin: 0 auto;
+
+}
+.footer_content {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.social {
+    margin-left: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modal_content {
+    background-color: rgb(255, 255, 255);
+    margin: 15% auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 40%;
+}
+.close {
+    color: rgb(111, 110, 110);
+    float: right;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cancel, .yes {
+    width: 100px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    color: #402B2B;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.cancel a {
+    text-decoration: none;
+    color: white;
+}
+.yes a {
+    text-decoration: none;
+    color: #402B2B;
+}
+
+.cancel {
+    color: white;
+    background-color: rgb(177, 93, 93);
+}
+.modal p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    color: #402B2B;
+    margin-bottom: 20px;
+}

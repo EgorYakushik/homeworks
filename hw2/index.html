@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300&family=Arvo&family=Bebas+Neue&family=Caveat:wght@400;700&family=DM+Serif+Display&family=Dancing+Script&family=Hind+Madurai:wght@300;400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400&family=Montserrat+Subrayada&family=Open+Sans:wght@300&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Patrick+Hand&family=Rubik:ital,wght@0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="logo">
+                <img src="img\logo.png">
+            </div>
+            <nav>
+                <a href="#"><span>About</span></a>
+                <a href="#"><span>Products</span></a>
+                <a href="#"><span>Contacts</span></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form class="form_list" method="post">
+            <div>
+                Name
+                <input type="text" name="firstname" placeholder="Egor Yakushik">
+            </div>
+            <div>
+                Email address
+                <input type="email" name="email" placeholder="Your email address">
+            </div>
+            <button class="button">
+                <a href="#">GET STARTED</a>
+            </button>
+        </form>
+    </main>
+    <button id="MyBtn">Open Modal</button>
+    <div class="modal" id="myModal">
+        <div class="modal_content">
+            <span class="close">&times;</span>
+            <p>You data won't be saved! Are you sure you want to quit registration process?</p>
+            <div class="buttons_wraper">
+                <button class="cancel"><a href="#">Cancel</a></button>
+                <button class="yes"><a href="#">Yes</a></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+            <div class="footer_content">
+                <div>Copyright &#169; 2022</div>
+                <div class="social">
+                    <a href="#"><img src="img/facebook.png" alt="#"></a>
+                    <a href="#"><img src="img/instagram.png" alt="#"></a>
+                    <a href="#"><img src="img/twitter.png" alt="#"></a>
+                </div>
+            </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
