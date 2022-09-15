@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	background: #c0d6c9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.quiz {
+	position: relative;
+	padding: 20px 20px calc(20px + 70px);
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 15px 5px rgba(39, 41, 42, 0.1);
+	width: 600px;
+	overflow: hidden;
+}
+
+.title{
+	font-size: 24px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0;
+}
+
+.summary {
+	text-align: center;
+	margin: 10px 0 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.quiz-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.quiz-list li {
+	font-size: 24px;
+}
+
+.quiz-list label {
+	cursor: pointer;
+	width: 100%;
+    display: block;
+	padding: 20px 10px;
+}
+
+.quiz-list label:hover {
+	background-color: rgb(41, 214, 200);
+}
+
+.quiz-list input[type="radio"] {
+	margin-right: 10px;
+}
+
+.quiz-submit {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 70px;
+	line-height: 70px;
+}
+
+.submit {
+	background-color: rgb(83, 182, 174);
+	color: #fff;
+	border: none;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	font-size: 22px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.submit:hover {
+	background-color: rgb(41, 214, 200);
+}
