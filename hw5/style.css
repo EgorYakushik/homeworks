@@ -1,0 +1,71 @@
+body {
+    margin-top: 20px;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+.container {
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(118, 159, 95);
+    margin: 0 auto;
+    background-color: rgb(247, 247, 247);
+}
+.header {
+    display: flex;
+    background-color: rgb(131, 200, 29);
+    color: rgb(70, 70, 70);
+    padding: 10px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.add {
+    height: 25px;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+
+}
+.add-contact {
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    background-color: white;
+}
+
+.contact {
+    height: 40px;
+    display: flex;
+    border-bottom: 2px solid rgb(167, 166, 166) ;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.edit_icon {
+    width: 30px;
+    height: 30px;
+}
+.add_icon {
+    width: 35px;
+    height: 35px;
+}
+.contact_icon, .remove_icon {
+    width: 35px;
+    height: 35px;
+}
+.add_icon, .remove_icon, .edit_icon {
+    cursor: pointer;
+}
+.name {
+    margin: 0 10px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    
+}
+#delete {
+    display: none;
+}
