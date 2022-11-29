@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.choose_pet {
+    text-align: center;
+}
+#pet {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px rgb(75, 75, 75);
+}
+.photos {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
